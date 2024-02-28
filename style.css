@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #344e41;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    height: 80%;
+    width: 65%;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px 2px #000;
+    overflow: hidden;
+}
+#ptop{
+    height: 100px;
+    width: 100%;
+    background-color: #588157;
+    box-shadow: inset 0px 7px 20px 3px #304b35;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elem{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+}   
+.box{
+    color: #73a5cb;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: inset #304b35 0px 0px 10px 0px,2px 2px 30px 2px #1c2d1f;
+    background-color: #fff;
+}
+.elem h4 {
+    font-size: 29px;
+    color: #01193f;
+    font-family: gilroy;
+    font-weight: 600;
+    text-shadow:0px 2px 15px #304b35;   
+}
+#pbtm{
+
+    width: 100%;
+    padding:12px 14px;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    box-shadow: inset 0px -9px 20px 3px #6b7559;
+    background-color: #dad7cd;
+}
+#bubble{
+  height: 60px;
+  width: 60px;
+  background: #a6dcf8;
+    border-radius: 50px;
+    border: 2px solid #addaf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: inset 9px 6px 13px 5px #fff,0px 0px 5px 0px #6b7559;
+  
+}
+#bubble:hover {
+    
+    background-color: #90c3f7; 
+  }
+  #pbtm h2{
+    font-size: 90px;
+    font-family: namecat;
+    text-shadow: -6px 3px 0px #6b7559;
+    gap: 25px;
+  }
+  #pbtm h3{
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 500;
+  }
+  .instruction{
+    height: 255px;
+    width: 35vw;
+    font-size: 20px;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+ .instruction button{
+    margin-top: 20px;
+    width: 15vh;
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color:#588157;
+    color: #fff;
+    font-family: gilroy;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.instruction button:hover{
+    background-color: #466746;
+    box-shadow: 0px 0px 5px  #000;
+}
